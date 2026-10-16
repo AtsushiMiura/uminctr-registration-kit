@@ -1,0 +1,3786 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-10-16",
+  "observedEnvironment": "practice",
+  "origin": "https://center6.umin.ac.jp",
+  "practicePath": "/cgi-bin/ctr_test/",
+  "forms": {
+    "purpose": {
+      "id": "purpose",
+      "heading": "UMIN-CTR 目的－入力",
+      "actions": [
+        "ctr_up_rec_f2.cgi",
+        "./ctr_menu_form.cgi"
+      ],
+      "buttons": [
+        {
+          "label": "確認画面へ",
+          "name": ".submit",
+          "type": "submit"
+        },
+        {
+          "label": "フォームの選択",
+          "name": ".submit",
+          "type": "submit"
+        }
+      ],
+      "fields": [
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "対象疾患名/Condition",
+          "kind": "text",
+          "language": "日本語",
+          "name": "diseasej",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "対象疾患/Condition",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "対象疾患名/Condition",
+          "kind": "text",
+          "language": "英語",
+          "name": "disease",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "対象疾患/Condition",
+          "tag": "textarea"
+        },
+        {
+          "count": 46,
+          "disabled": false,
+          "heading": "疾患区分1/Classification by specialty",
+          "kind": "checkbox",
+          "language": "",
+          "name": "dcatg",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "対象疾患/Condition",
+          "tag": "input",
+          "options": [
+            [
+              "01",
+              "内科学一般/Medicine in general"
+            ],
+            [
+              "02",
+              "消化器内科学（消化管）/Gastroenterology"
+            ],
+            [
+              "03",
+              "消化器内科学（肝・胆・膵）/Hepato-biliary-pancreatic medicine"
+            ],
+            [
+              "04",
+              "循環器内科学/Cardiology"
+            ],
+            [
+              "05",
+              "呼吸器内科学/Pneumology"
+            ],
+            [
+              "06",
+              "内分泌・代謝病内科学/Endocrinology and Metabolism"
+            ],
+            [
+              "07",
+              "血液・腫瘍内科学/Hematology and clinical oncology"
+            ],
+            [
+              "08",
+              "腎臓内科学/Nephrology"
+            ],
+            [
+              "09",
+              "神経内科学/Neurology"
+            ],
+            [
+              "10",
+              "膠原病・アレルギー内科学/Clinical immunology"
+            ],
+            [
+              "11",
+              "心療内科学/Psychosomatic Internal Medicine"
+            ],
+            [
+              "12",
+              "感染症内科学/Infectious disease"
+            ],
+            [
+              "13",
+              "老年内科学/Geriatrics"
+            ],
+            [
+              "14",
+              "外科学一般/Surgery in general"
+            ],
+            [
+              "15",
+              "消化器外科(消化管）/Gastrointestinal surgery"
+            ],
+            [
+              "16",
+              "消化器外科（肝・胆・膵）/Hepato-biliary-pancreatic surgery"
+            ],
+            [
+              "17",
+              "血管外科学/Vascular surgery"
+            ],
+            [
+              "18",
+              "呼吸器外科学/Chest surgery"
+            ],
+            [
+              "19",
+              "内分泌外科学/Endocrine surgery"
+            ],
+            [
+              "20",
+              "乳腺外科学/Breast surgery"
+            ],
+            [
+              "21",
+              "産婦人科学/Obstetrics and Gynecology"
+            ],
+            [
+              "22",
+              "小児科学/Pediatrics"
+            ],
+            [
+              "23",
+              "眼科学/Ophthalmology"
+            ],
+            [
+              "24",
+              "皮膚科学/Dermatology"
+            ],
+            [
+              "25",
+              "精神神経科学/Psychiatry"
+            ],
+            [
+              "26",
+              "耳鼻咽喉科学/Oto-rhino-laryngology"
+            ],
+            [
+              "27",
+              "整形外科学/Orthopedics"
+            ],
+            [
+              "28",
+              "泌尿器科学/Urology"
+            ],
+            [
+              "29",
+              "放射線医学/Radiology"
+            ],
+            [
+              "30",
+              "麻酔科学/Anesthesiology"
+            ],
+            [
+              "31",
+              "口腔外科学/Oral surgery"
+            ],
+            [
+              "32",
+              "脳神経外科学/Neurosurgery"
+            ],
+            [
+              "33",
+              "心臓血管外科学/Cardiovascular surgery"
+            ],
+            [
+              "34",
+              "形成外科学/Plastic surgery"
+            ],
+            [
+              "35",
+              "美容外科学/Aesthetic surgery"
+            ],
+            [
+              "36",
+              "検査医学/Laboratory medicine"
+            ],
+            [
+              "37",
+              "手術医学/Operative medicine"
+            ],
+            [
+              "38",
+              "救急医学/Emergency medicine"
+            ],
+            [
+              "39",
+              "輸血医学/Blood transfusion"
+            ],
+            [
+              "40",
+              "集中治療医学/Intensive care medicine"
+            ],
+            [
+              "41",
+              "リハビリテーション医学/Rehabilitation medicine"
+            ],
+            [
+              "42",
+              "歯学/Dental medicine"
+            ],
+            [
+              "43",
+              "看護学/Nursing"
+            ],
+            [
+              "44",
+              "該当せず/Not applicable"
+            ],
+            [
+              "45",
+              "成人/Adult"
+            ],
+            [
+              "46",
+              "小児/Child"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "疾患区分2/Classification by malignancy",
+          "kind": "select",
+          "language": "",
+          "name": "cancer",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "対象疾患/Condition",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "悪性腫瘍/Malignancy"
+            ],
+            [
+              "02",
+              "悪性腫瘍以外/Others"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "ゲノム情報の取扱い/Genomic information",
+          "kind": "select",
+          "language": "",
+          "name": "genomeYN",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "対象疾患/Condition",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "はい/YES"
+            ],
+            [
+              "02",
+              "いいえ/NO"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "目的1/Narrative objectives1",
+          "kind": "text",
+          "language": "日本語",
+          "name": "objj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "目的/Objectives",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "目的1/Narrative objectives1",
+          "kind": "text",
+          "language": "英語",
+          "name": "obj",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "目的/Objectives",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "目的2/Basic objectives2",
+          "kind": "select",
+          "language": "",
+          "name": "object",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "目的/Objectives",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "安全性/Safety"
+            ],
+            [
+              "02",
+              "有効性/Efficacy"
+            ],
+            [
+              "03",
+              "安全性・有効性/Safety,Efficacy"
+            ],
+            [
+              "04",
+              "生物学的・臨床的同等性/Bio-equivalence"
+            ],
+            [
+              "05",
+              "生物学的利用性/Bio-availability"
+            ],
+            [
+              "06",
+              "薬物動態/Pharmacokinetics"
+            ],
+            [
+              "07",
+              "薬力学/Pharmacodynamics"
+            ],
+            [
+              "08",
+              "薬物動態・薬力学/PK,PD"
+            ],
+            [
+              "09",
+              "その他/Others"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "目的2 -その他詳細/Basic objectives -Others",
+          "kind": "text",
+          "language": "日本語",
+          "name": "objoj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "目的/Objectives",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "目的2 -その他詳細/Basic objectives -Others",
+          "kind": "text",
+          "language": "英語",
+          "name": "objo",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "目的/Objectives",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験の性質1/Trial characteristics_1",
+          "kind": "select",
+          "language": "",
+          "name": "tchara1",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "目的/Objectives",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "検証的/Confirmatory"
+            ],
+            [
+              "02",
+              "探索的/Exploratory"
+            ],
+            [
+              "03",
+              "その他/Others"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験の性質2/Trial characteristics_2",
+          "kind": "select",
+          "language": "",
+          "name": "tchara2",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "目的/Objectives",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "説明的/Explanatory"
+            ],
+            [
+              "02",
+              "実務的/Pragmatic"
+            ],
+            [
+              "03",
+              "その他/Others"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験のフェーズ/Developmental phase",
+          "kind": "select",
+          "language": "",
+          "name": "phase",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "目的/Objectives",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "第Ⅰ相/Phase I"
+            ],
+            [
+              "02",
+              "第Ⅰ・Ⅱ相/Phase I,II"
+            ],
+            [
+              "03",
+              "第Ⅱ相/Phase II"
+            ],
+            [
+              "04",
+              "第Ⅱ・Ⅲ相/Phase II,III"
+            ],
+            [
+              "05",
+              "第Ⅲ相/Phase III"
+            ],
+            [
+              "06",
+              "第Ⅳ相/Phase IV"
+            ],
+            [
+              "07",
+              "該当せず/Not applicable"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "主要アウトカム評価項目/Primary outcomes",
+          "kind": "text",
+          "language": "日本語",
+          "name": "primoutcj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "評価/Assessment",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "主要アウトカム評価項目/Primary outcomes",
+          "kind": "text",
+          "language": "英語",
+          "name": "primoutc",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "評価/Assessment",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "副次アウトカム評価項目/Key secondary outcomes",
+          "kind": "text",
+          "language": "日本語",
+          "name": "secoutcj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "評価/Assessment",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "副次アウトカム評価項目/Key secondary outcomes",
+          "kind": "text",
+          "language": "英語",
+          "name": "secoutc",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "評価/Assessment",
+          "tag": "textarea"
+        }
+      ]
+    },
+    "design": {
+      "id": "design",
+      "heading": "UMIN-CTR 試験デザイン－入力",
+      "actions": [
+        "ctr_up_rec_f3.cgi",
+        "./ctr_menu_form.cgi"
+      ],
+      "buttons": [
+        {
+          "label": "確認画面へ",
+          "name": ".submit",
+          "type": "submit"
+        },
+        {
+          "label": "フォームの選択",
+          "name": ".submit",
+          "type": "submit"
+        }
+      ],
+      "fields": [
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験の種類/Study type",
+          "kind": "select",
+          "language": "",
+          "name": "ttype",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "基本事項/Base",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "介入/Interventional"
+            ],
+            [
+              "02",
+              "観察/Observational"
+            ],
+            [
+              "04",
+              "その他・メタアナリシス等/Others,meta-analysis etc"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "基本デザイン/Basic design",
+          "kind": "select",
+          "language": "",
+          "name": "design",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験デザイン/Study design",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "並行群間比較/Parallel"
+            ],
+            [
+              "02",
+              "クロスオーバー試験/Cross-over"
+            ],
+            [
+              "03",
+              "要因デザイン/Factorial"
+            ],
+            [
+              "04",
+              "単群/Single arm"
+            ],
+            [
+              "05",
+              "継続・拡大投与/expanded access"
+            ],
+            [
+              "06",
+              "n-of-1/n-of-1"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "ランダム化/Randomization",
+          "kind": "select",
+          "language": "",
+          "name": "rndm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験デザイン/Study design",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "ランダム化/Randomized"
+            ],
+            [
+              "02",
+              "非ランダム化/Non-randomized"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "ランダム化の単位/Randomization unit",
+          "kind": "select",
+          "language": "",
+          "name": "rndmu",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験デザイン/Study design",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "個別/Individual"
+            ],
+            [
+              "02",
+              "集団/Cluster"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "ブラインド化/Blinding",
+          "kind": "select",
+          "language": "",
+          "name": "blnd",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験デザイン/Study design",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "オープン/Open -no one is blinded"
+            ],
+            [
+              "02",
+              "オープンだが測定者がブラインド化されている/Open -but assessor(s) are blinded"
+            ],
+            [
+              "03",
+              "試験参加者がブラインド化されている単盲検/Single blind -participants are blinded"
+            ],
+            [
+              "04",
+              "介入実施者・測定者がブラインド化されている単盲検/Single blind -investigator(s) and assessor(s) are blinded"
+            ],
+            [
+              "05",
+              "二重盲検/Double blind -all involved are blinded"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "コントロール/Control",
+          "kind": "select",
+          "language": "",
+          "name": "cont",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験デザイン/Study design",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "プラセボ・シャム対照/Placebo"
+            ],
+            [
+              "02",
+              "無治療対照/No treatment"
+            ],
+            [
+              "03",
+              "実薬・標準治療対照/Active"
+            ],
+            [
+              "04",
+              "用量対照/Dose comparison"
+            ],
+            [
+              "05",
+              "ヒストリカル/Historical"
+            ],
+            [
+              "06",
+              "無対照/Uncontrolled"
+            ],
+            [
+              "07",
+              "群内/Self control"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "層別化/Stratification",
+          "kind": "select",
+          "language": "",
+          "name": "stratYN",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験デザイン/Study design",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "はい/YES"
+            ],
+            [
+              "02",
+              "いいえ/NO"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "動的割付/Dynamic allocation",
+          "kind": "select",
+          "language": "",
+          "name": "dynallYN",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験デザイン/Study design",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "はい/YES"
+            ],
+            [
+              "02",
+              "いいえ/NO"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験実施施設の考慮/Institution consideration",
+          "kind": "select",
+          "language": "",
+          "name": "instfac",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験デザイン/Study design",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "動的割付けの際に施設を調整因子としている/Institution is considered as adjustment factor in dynamic allocation."
+            ],
+            [
+              "02",
+              "施設をブロックとみなしている/Institution is considered as a block."
+            ],
+            [
+              "03",
+              "施設を考慮していない/Institution is not considered as adjustment factor."
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "ブロック化/Blocking",
+          "kind": "select",
+          "language": "",
+          "name": "blockYN",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験デザイン/Study design",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "はい/YES"
+            ],
+            [
+              "02",
+              "いいえ/NO"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "割付コードを知る方法/Concealment",
+          "kind": "select",
+          "language": "",
+          "name": "conceal",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験デザイン/Study design",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "中央登録/Central registration"
+            ],
+            [
+              "02",
+              "封筒法/Numbered container method"
+            ],
+            [
+              "03",
+              "準ランダム化/Pseudo-randomization"
+            ],
+            [
+              "04",
+              "知る必要がない/No need to know"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "群数/No. of arms",
+          "kind": "text",
+          "language": "",
+          "name": "arm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入の目的/Purpose of intervention",
+          "kind": "select",
+          "language": "",
+          "name": "itype",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "治療・ケア/Treatment"
+            ],
+            [
+              "02",
+              "予防・検診・検査/Prevention"
+            ],
+            [
+              "03",
+              "診断/Diagnosis"
+            ],
+            [
+              "04",
+              "教育・カウンセリング・トレーニング/Educational,Counseling,Training"
+            ]
+          ]
+        },
+        {
+          "count": 8,
+          "disabled": false,
+          "heading": "介入の種類/Type of intervention",
+          "kind": "checkbox",
+          "language": "",
+          "name": "intervention",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "input",
+          "options": [
+            [
+              "01",
+              "医薬品/Medicine"
+            ],
+            [
+              "02",
+              "ワクチン/Vaccine"
+            ],
+            [
+              "03",
+              "遺伝子/Gene"
+            ],
+            [
+              "04",
+              "食品/Food"
+            ],
+            [
+              "05",
+              "医療器具・機器/Device,equipment"
+            ],
+            [
+              "06",
+              "行動・習慣/Behavior,custom"
+            ],
+            [
+              "07",
+              "手技/Maneuver"
+            ],
+            [
+              "99",
+              "その他/Other"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入1/Interventions/Control_1",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intervj1",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入1/Interventions/Control_1",
+          "kind": "text",
+          "language": "英語",
+          "name": "interv1",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入2/Interventions/Control_2",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intervj2",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入2/Interventions/Control_2",
+          "kind": "text",
+          "language": "英語",
+          "name": "interv2",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入3/Interventions/Control_3",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intervj3",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入3/Interventions/Control_3",
+          "kind": "text",
+          "language": "英語",
+          "name": "interv3",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入4/Interventions/Control_4",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intervj4",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入4/Interventions/Control_4",
+          "kind": "text",
+          "language": "英語",
+          "name": "interv4",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入5/Interventions/Control_5",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intervj5",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入5/Interventions/Control_5",
+          "kind": "text",
+          "language": "英語",
+          "name": "interv5",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入6/Interventions/Control_6",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intervj6",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入6/Interventions/Control_6",
+          "kind": "text",
+          "language": "英語",
+          "name": "interv6",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入7/Interventions/Control_7",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intervj7",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入7/Interventions/Control_7",
+          "kind": "text",
+          "language": "英語",
+          "name": "interv7",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入8/Interventions/Control_8",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intervj8",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入8/Interventions/Control_8",
+          "kind": "text",
+          "language": "英語",
+          "name": "interv8",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入9/Interventions/Control_9",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intervj9",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入9/Interventions/Control_9",
+          "kind": "text",
+          "language": "英語",
+          "name": "interv9",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入10/Interventions/Control_10",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intervj10",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "介入10/Interventions/Control_10",
+          "kind": "text",
+          "language": "英語",
+          "name": "interv10",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "介入/Intervention",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "年齢（下限）/Age-lower limit",
+          "kind": "text",
+          "language": "",
+          "name": "agelow",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "年齢（下限）/Age-lower limit",
+          "kind": "select",
+          "language": "",
+          "name": "agelowu",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "歳/years-old"
+            ],
+            [
+              "02",
+              "ヶ月/months-old"
+            ],
+            [
+              "03",
+              "週/weeks-old"
+            ],
+            [
+              "05",
+              "日/days-old"
+            ],
+            [
+              "04",
+              "適用なし/Not applicable"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "年齢（下限）/Age-lower limit",
+          "kind": "select",
+          "language": "",
+          "name": "agelowl",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "以上/<="
+            ],
+            [
+              "02",
+              "より上/<"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "年齢（上限）/Age-upper limit",
+          "kind": "text",
+          "language": "",
+          "name": "ageup",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "年齢（上限）/Age-upper limit",
+          "kind": "select",
+          "language": "",
+          "name": "ageupu",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "歳/years-old"
+            ],
+            [
+              "02",
+              "ヶ月/months-old"
+            ],
+            [
+              "03",
+              "週/weeks-old"
+            ],
+            [
+              "05",
+              "日/days-old"
+            ],
+            [
+              "04",
+              "適用なし/Not applicable"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "年齢（上限）/Age-upper limit",
+          "kind": "select",
+          "language": "",
+          "name": "ageupl",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "以下/>="
+            ],
+            [
+              "02",
+              "未満/>"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "性別/Gender",
+          "kind": "select",
+          "language": "",
+          "name": "sex",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "男/Male"
+            ],
+            [
+              "02",
+              "女/Female"
+            ],
+            [
+              "03",
+              "男女両方/Male and Female"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "選択基準/Key inclusion criteria",
+          "kind": "text",
+          "language": "日本語",
+          "name": "incj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "選択基準/Key inclusion criteria",
+          "kind": "text",
+          "language": "英語",
+          "name": "inc",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "除外基準/Key exclusion criteria",
+          "kind": "text",
+          "language": "日本語",
+          "name": "excj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "除外基準/Key exclusion criteria",
+          "kind": "text",
+          "language": "英語",
+          "name": "exc",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "目標参加者数/Target sample size",
+          "kind": "text",
+          "language": "",
+          "name": "partno",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "適格性/Eligibility",
+          "tag": "input"
+        }
+      ]
+    },
+    "management": {
+      "id": "management",
+      "heading": "UMIN-CTR 管理情報等－入力",
+      "actions": [
+        "ctr_up_rec_f4.cgi",
+        "./ctr_menu_form.cgi"
+      ],
+      "buttons": [
+        {
+          "label": "機関選択",
+          "name": "",
+          "type": "button"
+        },
+        {
+          "label": "機関選択",
+          "name": "",
+          "type": "button"
+        },
+        {
+          "label": "確認画面へ",
+          "name": ".submit",
+          "type": "submit"
+        },
+        {
+          "label": "フォームの選択",
+          "name": ".submit",
+          "type": "submit"
+        }
+      ],
+      "fields": [
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "責任研究者/Name of lead principal investigator",
+          "kind": "text",
+          "language": "日本語",
+          "name": "i_fnamej",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "名",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "責任研究者/Name of lead principal investigator",
+          "kind": "text",
+          "language": "日本語",
+          "name": "i_mnamej",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "ミドルネーム",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "責任研究者/Name of lead principal investigator",
+          "kind": "text",
+          "language": "日本語",
+          "name": "i_namej",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "姓",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "責任研究者/Name of lead principal investigator",
+          "kind": "text",
+          "language": "英語",
+          "name": "i_fname",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "名",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "責任研究者/Name of lead principal investigator",
+          "kind": "text",
+          "language": "英語",
+          "name": "i_mname",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "ミドルネーム",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "責任研究者/Name of lead principal investigator",
+          "kind": "text",
+          "language": "英語",
+          "name": "i_name",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "姓",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "所属組織/Organization",
+          "kind": "text",
+          "language": "日本語",
+          "name": "i_orgj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "責任研究者/Research contact person",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "所属組織/Organization",
+          "kind": "text",
+          "language": "英語",
+          "name": "i_org",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "責任研究者/Research contact person",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "所属部署/Division name",
+          "kind": "text",
+          "language": "日本語",
+          "name": "i_divj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "所属部署/Division name",
+          "kind": "text",
+          "language": "英語",
+          "name": "i_div",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "郵便番号/Zip code",
+          "kind": "text",
+          "language": "",
+          "name": "i_zip",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所/Address",
+          "kind": "text",
+          "language": "日本語",
+          "name": "i_addj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所/Address",
+          "kind": "text",
+          "language": "英語",
+          "name": "i_add",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "電話/TEL",
+          "kind": "text",
+          "language": "",
+          "name": "i_tel",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "Email/Email",
+          "kind": "text",
+          "language": "",
+          "name": "i_mail",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "責任研究者/Research contact person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験問い合わせ窓口担当者/Name of contact person",
+          "kind": "text",
+          "language": "日本語",
+          "name": "w_fnamej",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "名",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験問い合わせ窓口担当者/Name of contact person",
+          "kind": "text",
+          "language": "日本語",
+          "name": "w_mnamej",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "ミドルネーム",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験問い合わせ窓口担当者/Name of contact person",
+          "kind": "text",
+          "language": "日本語",
+          "name": "w_namej",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "姓",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験問い合わせ窓口担当者/Name of contact person",
+          "kind": "text",
+          "language": "英語",
+          "name": "w_fname",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "名",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験問い合わせ窓口担当者/Name of contact person",
+          "kind": "text",
+          "language": "英語",
+          "name": "w_mname",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "ミドルネーム",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験問い合わせ窓口担当者/Name of contact person",
+          "kind": "text",
+          "language": "英語",
+          "name": "w_name",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "姓",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "組織名/Organization",
+          "kind": "text",
+          "language": "日本語",
+          "name": "w_orgj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "組織名/Organization",
+          "kind": "text",
+          "language": "英語",
+          "name": "w_org",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "部署名/Division name",
+          "kind": "text",
+          "language": "日本語",
+          "name": "w_divj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "部署名/Division name",
+          "kind": "text",
+          "language": "英語",
+          "name": "w_div",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "郵便番号/Zip code",
+          "kind": "text",
+          "language": "",
+          "name": "w_zip",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所/Address",
+          "kind": "text",
+          "language": "日本語",
+          "name": "w_addj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所/Address",
+          "kind": "text",
+          "language": "英語",
+          "name": "w_add",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "電話/TEL",
+          "kind": "text",
+          "language": "",
+          "name": "w_tel",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験のホームページURL/Homepage URL",
+          "kind": "text",
+          "language": "",
+          "name": "w_url",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "Email/Email",
+          "kind": "text",
+          "language": "",
+          "name": "w_mail",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験問い合わせ窓口/Public contact",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "送信者名/Name of person sending information",
+          "kind": "text",
+          "language": "日本語",
+          "name": "s_namej",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "情報送信組織/Organization sending information",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "送信者名/Name of person sending information",
+          "kind": "text",
+          "language": "英語",
+          "name": "s_name",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "情報送信組織/Organization sending information",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "情報送信組織/Organization",
+          "kind": "text",
+          "language": "日本語",
+          "name": "s_orgj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "情報送信組織/Organization sending information",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "情報送信組織/Organization",
+          "kind": "text",
+          "language": "英語",
+          "name": "s_org",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "情報送信組織/Organization sending information",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "所属部署/Division name",
+          "kind": "text",
+          "language": "日本語",
+          "name": "s_divj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "情報送信組織/Organization sending information",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "所属部署/Division name",
+          "kind": "text",
+          "language": "英語",
+          "name": "s_div",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "情報送信組織/Organization sending information",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所/Address",
+          "kind": "text",
+          "language": "日本語",
+          "name": "s_addj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "情報送信組織/Organization sending information",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所/Address",
+          "kind": "text",
+          "language": "英語",
+          "name": "s_add",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "情報送信組織/Organization sending information",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "電話/TEL",
+          "kind": "text",
+          "language": "",
+          "name": "s_tel",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "情報送信組織/Organization sending information",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "Email/Email",
+          "kind": "text",
+          "language": "",
+          "name": "s_mail",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "情報送信組織/Organization sending information",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "機関名/Institute",
+          "kind": "text",
+          "language": "日本語",
+          "name": "sponsor_nm",
+          "paragraph": 0,
+          "readOnly": true,
+          "rowLabel": "",
+          "section": "実施責任個人または組織/Sponsor or person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "機関名/Institute",
+          "kind": "text",
+          "language": "英語",
+          "name": "sponsor",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "実施責任個人または組織/Sponsor or person",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "機関名/Institute（機関選択不可の場合）",
+          "kind": "text",
+          "language": "日本語",
+          "name": "sponsorj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "実施責任個人または組織/Sponsor or person",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "部署名/Department",
+          "kind": "text",
+          "language": "日本語",
+          "name": "sponsor_orgj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "実施責任個人または組織/Sponsor or person",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "個人名/Personal name",
+          "kind": "text",
+          "language": "日本語",
+          "name": "sponsor_perj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "実施責任個人または組織/Sponsor or person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "個人名/Personal name",
+          "kind": "text",
+          "language": "英語",
+          "name": "sponsor_per",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "実施責任個人または組織/Sponsor or person",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "機関名/Organization",
+          "kind": "text",
+          "language": "日本語",
+          "name": "fund_nm",
+          "paragraph": 0,
+          "readOnly": true,
+          "rowLabel": "",
+          "section": "研究費提供組織/Funding Source",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "機関名/Organization",
+          "kind": "text",
+          "language": "英語",
+          "name": "fund",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "研究費提供組織/Funding Source",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "機関名/Organization（機関選択不可の場合）",
+          "kind": "text",
+          "language": "日本語",
+          "name": "fundj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "研究費提供組織/Funding Source",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "組織名/Division",
+          "kind": "text",
+          "language": "日本語",
+          "name": "fund_orgj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "研究費提供組織/Funding Source",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "組織の区分/Category of Funding Organization",
+          "kind": "select",
+          "language": "",
+          "name": "fundorg",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "研究費提供組織/Funding Source",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "13",
+              "日本の官庁/Japanese Governmental office"
+            ],
+            [
+              "11",
+              "その他の国の官庁/Government offices of other countries"
+            ],
+            [
+              "09",
+              "地方自治体/Local Government"
+            ],
+            [
+              "05",
+              "財団/Non profit foundation"
+            ],
+            [
+              "06",
+              "営利企業/Profit organization"
+            ],
+            [
+              "07",
+              "海外/Outside Japan"
+            ],
+            [
+              "08",
+              "自己調達/Self funding"
+            ],
+            [
+              "99",
+              "その他/Other"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "研究費拠出国/Nationality of Funding Organization",
+          "kind": "text",
+          "language": "日本語",
+          "name": "fundnationj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "研究費提供組織/Funding Source",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "研究費拠出国/Nationality of Funding Organization",
+          "kind": "text",
+          "language": "英語",
+          "name": "fundnation",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "研究費提供組織/Funding Source",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "共同実施組織/Co-sponsor",
+          "kind": "text",
+          "language": "日本語",
+          "name": "cosponsorj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "その他の関連組織/Other related organizations",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "共同実施組織/Co-sponsor",
+          "kind": "text",
+          "language": "英語",
+          "name": "cosponsor",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "その他の関連組織/Other related organizations",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "その他の研究費提供組織/Name of secondary funder(s)",
+          "kind": "text",
+          "language": "日本語",
+          "name": "cofunderj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "その他の関連組織/Other related organizations",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "その他の研究費提供組織/Name of secondary funder(s)",
+          "kind": "text",
+          "language": "英語",
+          "name": "cofunder",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "その他の関連組織/Other related organizations",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "倫理委員会による審査・承認/Research ethics review",
+          "kind": "select",
+          "language": "",
+          "name": "ethics",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "あり/YES"
+            ],
+            [
+              "02",
+              "なし/NO"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "日本の法規に定める医薬品製造業者等による医薬品の市販後調査への該当/Post marketing survey by drug manufacture etc., specified by Japanese law.",
+          "kind": "select",
+          "language": "",
+          "name": "irb_kind",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "該当なし（医薬品製造業者等でない場合は、こちらを選択ください）/Not applicable (Chose this category if you are not drug manufacture etc. in Japan)"
+            ],
+            [
+              "02",
+              "市販後使用成績調査（IRBに関する情報は必須ではありません）/Post marketing drug use results survey (IRB information not necessary)"
+            ],
+            [
+              "03",
+              "市販後特定使用成績調査（IRBに関する情報は必須ではありません）/Post marketing special drug use results survey (IRB information not necessary)"
+            ],
+            [
+              "04",
+              "市販後臨床試験/Post Marketing Clinical Trial"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "組織名1/Organization1",
+          "kind": "text",
+          "language": "",
+          "name": "irb_org1",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所1/Address1",
+          "kind": "text",
+          "language": "",
+          "name": "irb_add1",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "電話1/Tel1",
+          "kind": "text",
+          "language": "",
+          "name": "irb_tel1",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "Email1/Email1",
+          "kind": "text",
+          "language": "",
+          "name": "irb_mail1",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "組織名2/Organization2",
+          "kind": "text",
+          "language": "",
+          "name": "irb_org2",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所2/Address2",
+          "kind": "text",
+          "language": "",
+          "name": "irb_add2",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "電話2/Tel2",
+          "kind": "text",
+          "language": "",
+          "name": "irb_tel2",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "Email2/Email2",
+          "kind": "text",
+          "language": "",
+          "name": "irb_mail2",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "組織名3/Organization3",
+          "kind": "text",
+          "language": "",
+          "name": "irb_org3",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所3/Address3",
+          "kind": "text",
+          "language": "",
+          "name": "irb_add3",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "電話3/Tel3",
+          "kind": "text",
+          "language": "",
+          "name": "irb_tel3",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "Email3/Email3",
+          "kind": "text",
+          "language": "",
+          "name": "irb_mail3",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先(非公開)/IRB Contact (Not for public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "組織名/Organization",
+          "kind": "text",
+          "language": "日本語",
+          "name": "irb_orgdj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先（公開）/IRB Contact (For public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "組織名/Organization",
+          "kind": "text",
+          "language": "英語",
+          "name": "irb_orgd",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先（公開）/IRB Contact (For public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所/Address",
+          "kind": "text",
+          "language": "日本語",
+          "name": "irb_adddj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先（公開）/IRB Contact (For public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "住所/Address",
+          "kind": "text",
+          "language": "英語",
+          "name": "irb_addd",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先（公開）/IRB Contact (For public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "電話/Tel",
+          "kind": "text",
+          "language": "",
+          "name": "irb_teld",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先（公開）/IRB Contact (For public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "Email/Email",
+          "kind": "text",
+          "language": "",
+          "name": "irb_maild",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "IRB等連絡先（公開）/IRB Contact (For public release)",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "他機関から発行された試験ID/Secondary IDs",
+          "kind": "select",
+          "language": "",
+          "name": "intidYN",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "他機関から発行された試験ID/Secondary IDs",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "はい/YES"
+            ],
+            [
+              "02",
+              "いいえ/NO"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験ID1/Study ID_1",
+          "kind": "text",
+          "language": "",
+          "name": "intid1",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "他機関から発行された試験ID/Secondary IDs",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "ID発行機関1/Org. issuing International ID_1",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intidorgj1",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "他機関から発行された試験ID/Secondary IDs",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "ID発行機関1/Org. issuing International ID_1",
+          "kind": "text",
+          "language": "英語",
+          "name": "intidorg1",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "他機関から発行された試験ID/Secondary IDs",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験ID2/Study ID_2",
+          "kind": "text",
+          "language": "",
+          "name": "intid2",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "他機関から発行された試験ID/Secondary IDs",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "ID発行機関2/Org. issuing International ID_2",
+          "kind": "text",
+          "language": "日本語",
+          "name": "intidorgj2",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "他機関から発行された試験ID/Secondary IDs",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "ID発行機関2/Org. issuing International ID_2",
+          "kind": "text",
+          "language": "英語",
+          "name": "intidorg2",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "他機関から発行された試験ID/Secondary IDs",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "治験届/IND to MHLW",
+          "kind": "text",
+          "language": "",
+          "name": "indmhlw",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "他機関から発行された試験ID/Secondary IDs",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験実施施設名称/Institutions",
+          "kind": "text",
+          "language": "",
+          "name": "instname",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験実施施設/Institutions",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "一般公開日（本登録希望日）/Date of disclosure of the study information",
+          "kind": "select",
+          "language": "",
+          "name": "discldt_yyyy",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "その他の管理情報/Other administrative information",
+          "tag": "select",
+          "datePart": "yyyy"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "一般公開日（本登録希望日）/Date of disclosure of the study information",
+          "kind": "select",
+          "language": "",
+          "name": "discldt_mm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "その他の管理情報/Other administrative information",
+          "tag": "select",
+          "datePart": "mm"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "一般公開日（本登録希望日）/Date of disclosure of the study information",
+          "kind": "select",
+          "language": "",
+          "name": "discldt_dd",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "その他の管理情報/Other administrative information",
+          "tag": "select",
+          "datePart": "dd"
+        }
+      ]
+    },
+    "results": {
+      "id": "results",
+      "heading": "UMIN-CTR 結果等－入力",
+      "actions": [
+        "ctr_up_rec_f5.cgi",
+        "./ctr_menu_form.cgi"
+      ],
+      "buttons": [
+        {
+          "label": "確認画面へ",
+          "name": ".submit",
+          "type": "submit"
+        },
+        {
+          "label": "フォームの選択",
+          "name": ".submit",
+          "type": "submit"
+        }
+      ],
+      "fields": [
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "プロトコル掲載URL/URL releasing protocol",
+          "kind": "text",
+          "language": "",
+          "name": "prturl",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "関連情報/Related information",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験結果の公開状況/Publication of results",
+          "kind": "select",
+          "language": "",
+          "name": "pubresult",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "関連情報/Related information",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "未公表/Unpublished"
+            ],
+            [
+              "02",
+              "最終結果が公表されている/Published"
+            ],
+            [
+              "03",
+              "中間解析等の途中公開/Partially published"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "結果掲載URL/URL related to results and publications",
+          "kind": "text",
+          "language": "",
+          "name": "rslturl",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "組み入れ参加者数/Number of participants that the trial has enrolled",
+          "kind": "text",
+          "language": "",
+          "name": "actno",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "input"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "主な結果/Results",
+          "kind": "text",
+          "language": "日本語",
+          "name": "rsltj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "主な結果/Results",
+          "kind": "text",
+          "language": "英語",
+          "name": "rslt",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "結果掲載遅延/Results Delayed",
+          "kind": "checkbox",
+          "language": "",
+          "name": "delayed12",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "input",
+          "options": [
+            [
+              "01",
+              "遅れる予定/Delay expected"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "結果遅延理由/Results Delay Reason",
+          "kind": "text",
+          "language": "日本語",
+          "name": "reason12j",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "結果遅延理由/Results Delay Reason",
+          "kind": "text",
+          "language": "英語",
+          "name": "reason12",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "最初の試験結果の出版日/Date of the first journal publication of results",
+          "kind": "select",
+          "language": "",
+          "name": "publicdt_yyyy",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "select",
+          "datePart": "yyyy"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "最初の試験結果の出版日/Date of the first journal publication of results",
+          "kind": "select",
+          "language": "",
+          "name": "publicdt_mm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "select",
+          "datePart": "mm"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "最初の試験結果の出版日/Date of the first journal publication of results",
+          "kind": "select",
+          "language": "",
+          "name": "publicdt_dd",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "select",
+          "datePart": "dd"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "参加者背景/Baseline Characteristics",
+          "kind": "text",
+          "language": "日本語",
+          "name": "baselinej",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "参加者背景/Baseline Characteristics",
+          "kind": "text",
+          "language": "英語",
+          "name": "baseline",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "参加者の流れ/Participant flow",
+          "kind": "text",
+          "language": "日本語",
+          "name": "partflowj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "参加者の流れ/Participant flow",
+          "kind": "text",
+          "language": "英語",
+          "name": "partflow",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "有害事象/Adverse events",
+          "kind": "text",
+          "language": "日本語",
+          "name": "advevtj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "有害事象/Adverse events",
+          "kind": "text",
+          "language": "英語",
+          "name": "advevt",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "評価項目/Outcome measures",
+          "kind": "text",
+          "language": "日本語",
+          "name": "oucmesj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "評価項目/Outcome measures",
+          "kind": "text",
+          "language": "英語",
+          "name": "oucmes",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "個別症例データ共有計画/Plan to share IPD",
+          "kind": "text",
+          "language": "日本語",
+          "name": "ipdplanj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "個別症例データ共有計画/Plan to share IPD",
+          "kind": "text",
+          "language": "英語",
+          "name": "ipdplan",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "個別症例データ共有計画の詳細/IPD sharing Plan description",
+          "kind": "text",
+          "language": "日本語",
+          "name": "ipdplandescj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "個別症例データ共有計画の詳細/IPD sharing Plan description",
+          "kind": "text",
+          "language": "英語",
+          "name": "ipdplandesc",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "結果/Result",
+          "tag": "textarea"
+        }
+      ]
+    },
+    "progress": {
+      "id": "progress",
+      "heading": "UMIN-CTR 進捗等－入力",
+      "actions": [
+        "ctr_up_rec_f6.cgi",
+        "./ctr_menu_form.cgi"
+      ],
+      "buttons": [
+        {
+          "label": "確認画面へ",
+          "name": ".submit",
+          "type": "submit"
+        },
+        {
+          "label": "フォームの選択",
+          "name": ".submit",
+          "type": "submit"
+        }
+      ],
+      "fields": [
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "試験進捗状況/Recruitment status",
+          "kind": "select",
+          "language": "",
+          "name": "prog",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "options": [
+            [
+              "",
+              "(未選択/Not selected)"
+            ],
+            [
+              "01",
+              "開始前/Preinitiation"
+            ],
+            [
+              "07",
+              "一般募集中/Open public recruiting"
+            ],
+            [
+              "08",
+              "限定募集中/Enrolling by invitation"
+            ],
+            [
+              "03",
+              "参加者募集中断/Suspended"
+            ],
+            [
+              "04",
+              "参加者募集終了‐試験継続中/No longer recruiting"
+            ],
+            [
+              "09",
+              "主たる結果の公表済み/Main results already published"
+            ],
+            [
+              "05",
+              "試験中止/Terminated"
+            ],
+            [
+              "06",
+              "試験終了/Completed"
+            ]
+          ]
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "プロトコル確定日/Date of protocol fixation",
+          "kind": "select",
+          "language": "",
+          "name": "prtdt_yyyy",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "yyyy"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "プロトコル確定日/Date of protocol fixation",
+          "kind": "select",
+          "language": "",
+          "name": "prtdt_mm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "mm"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "プロトコル確定日/Date of protocol fixation",
+          "kind": "select",
+          "language": "",
+          "name": "prtdt_dd",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "dd"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "倫理委員会による承認日/Date of IRB",
+          "kind": "select",
+          "language": "",
+          "name": "ethics_dt_yyyy",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "yyyy"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "倫理委員会による承認日/Date of IRB",
+          "kind": "select",
+          "language": "",
+          "name": "ethics_dt_mm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "mm"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "倫理委員会による承認日/Date of IRB",
+          "kind": "select",
+          "language": "",
+          "name": "ethics_dt_dd",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "dd"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "登録・組入れ開始（予定）日/Anticipated trial start date",
+          "kind": "select",
+          "language": "",
+          "name": "regdt_yyyy",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "yyyy"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "登録・組入れ開始（予定）日/Anticipated trial start date",
+          "kind": "select",
+          "language": "",
+          "name": "regdt_mm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "mm"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "登録・組入れ開始（予定）日/Anticipated trial start date",
+          "kind": "select",
+          "language": "",
+          "name": "regdt_dd",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "dd"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "フォロー終了(予定)日/Last follow-up date",
+          "kind": "select",
+          "language": "",
+          "name": "lastfoldt_yyyy",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "yyyy"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "フォロー終了(予定)日/Last follow-up date",
+          "kind": "select",
+          "language": "",
+          "name": "lastfoldt_mm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "mm"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "フォロー終了(予定)日/Last follow-up date",
+          "kind": "select",
+          "language": "",
+          "name": "lastfoldt_dd",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "dd"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "入力終了(予定)日/Date of closure to data entry",
+          "kind": "select",
+          "language": "",
+          "name": "lastentdt_yyyy",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "yyyy"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "入力終了(予定)日/Date of closure to data entry",
+          "kind": "select",
+          "language": "",
+          "name": "lastentdt_mm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "mm"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "入力終了(予定)日/Date of closure to data entry",
+          "kind": "select",
+          "language": "",
+          "name": "lastentdt_dd",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "dd"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "データ固定（予定）日/Date trial data considered complete",
+          "kind": "select",
+          "language": "",
+          "name": "enddt_yyyy",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "yyyy"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "データ固定（予定）日/Date trial data considered complete",
+          "kind": "select",
+          "language": "",
+          "name": "enddt_mm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "mm"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "データ固定（予定）日/Date trial data considered complete",
+          "kind": "select",
+          "language": "",
+          "name": "enddt_dd",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "dd"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "解析終了(予定)日/Date analysis concluded",
+          "kind": "select",
+          "language": "",
+          "name": "concdt_yyyy",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "yyyy"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "解析終了(予定)日/Date analysis concluded",
+          "kind": "select",
+          "language": "",
+          "name": "concdt_mm",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "mm"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "解析終了(予定)日/Date analysis concluded",
+          "kind": "select",
+          "language": "",
+          "name": "concdt_dd",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "試験進捗状況/Progress",
+          "tag": "select",
+          "datePart": "dd"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "その他関連情報/Other related information",
+          "kind": "text",
+          "language": "日本語",
+          "name": "tinfoj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "その他/Other",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "その他関連情報/Other related information",
+          "kind": "text",
+          "language": "英語",
+          "name": "tinfo",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "その他/Other",
+          "tag": "textarea"
+        }
+      ]
+    },
+    "basic": {
+      "id": "basic",
+      "heading": "UMIN-CTR 基本情報－入力",
+      "actions": [
+        "ctr_up_rec_f1.cgi",
+        "./ctr_menu_form.cgi"
+      ],
+      "buttons": [
+        {
+          "label": "確認画面へ",
+          "name": ".submit",
+          "type": "submit"
+        },
+        {
+          "label": "フォームの選択",
+          "name": ".submit",
+          "type": "submit"
+        }
+      ],
+      "fields": [
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "一般向け試験名/Public title",
+          "kind": "text",
+          "language": "日本語",
+          "name": "titlej",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "基本情報/Basic information",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "一般向け試験名/Public title",
+          "kind": "text",
+          "language": "英語",
+          "name": "title",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "基本情報/Basic information",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "一般向け試験名略称/Acronym",
+          "kind": "text",
+          "language": "日本語",
+          "name": "titlebj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "基本情報/Basic information",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "一般向け試験名略称/Acronym",
+          "kind": "text",
+          "language": "英語",
+          "name": "titleb",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "基本情報/Basic information",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "科学的試験名/Scientific Title",
+          "kind": "text",
+          "language": "日本語",
+          "name": "titlesj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "基本情報/Basic information",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "科学的試験名/Scientific Title",
+          "kind": "text",
+          "language": "英語",
+          "name": "titles",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "基本情報/Basic information",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "科学的試験名略称/Scientific Title:Acronym",
+          "kind": "text",
+          "language": "日本語",
+          "name": "titlesbj",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "基本情報/Basic information",
+          "tag": "textarea"
+        },
+        {
+          "count": 1,
+          "disabled": false,
+          "heading": "科学的試験名略称/Scientific Title:Acronym",
+          "kind": "text",
+          "language": "英語",
+          "name": "titlesb",
+          "paragraph": 1,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "基本情報/Basic information",
+          "tag": "textarea"
+        },
+        {
+          "count": 7,
+          "disabled": false,
+          "heading": "試験実施地域/Region",
+          "kind": "checkbox",
+          "language": "",
+          "name": "region",
+          "paragraph": 0,
+          "readOnly": false,
+          "rowLabel": "",
+          "section": "基本情報/Basic information",
+          "tag": "input",
+          "options": [
+            [
+              "01",
+              "日本/Japan"
+            ],
+            [
+              "02",
+              "アジア（日本以外）/Asia(except Japan)"
+            ],
+            [
+              "03",
+              "北米/North America"
+            ],
+            [
+              "04",
+              "南米/South America"
+            ],
+            [
+              "05",
+              "オセアニア/Australia"
+            ],
+            [
+              "06",
+              "欧州/Europe"
+            ],
+            [
+              "07",
+              "アフリカ/Africa"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

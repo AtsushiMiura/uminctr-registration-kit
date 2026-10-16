@@ -18,6 +18,8 @@ Rで始まる受付番号は正式なUMIN試験IDではない。公開希望日�
 
 ## 対応表
 
+入力名・言語・選択肢コードは [form-catalog.json](form-catalog.json)、反復操作は [操作コードの使い方](browser-automation.md) を参照する。必要なフォームだけ読む。対応表に実際の入力値を保存しない。
+
 | フォーム | Wordの情報 | 照合点 |
 | --- | --- | --- |
 | 基本情報 | 一般向け／科学的試験名、各略称、地域 | 日本語と英語の4組を取り違えず、独自に改題しない |
@@ -48,5 +50,6 @@ Rで始まる受付番号は正式なUMIN試験IDではない。公開希望日�
 
 - UMIN-CTR操作マニュアル: https://www.umin.ac.jp/ctr/manual/ctr_manual.html
 - UMIN-CTR FAQ: https://www.umin.ac.jp/ctr/UMIN-CTR_FAQ.htm
+- UMIN-CTR用語集（入力サイズ）: https://www.umin.ac.jp/ctr/UMIN-CTR_Yougo.htm
 
 操作境界は2026-10-16に上記で確認した。画面が異なる場合は公式資料を再確認し、URLや以前の画面順から挙動を推測しない。

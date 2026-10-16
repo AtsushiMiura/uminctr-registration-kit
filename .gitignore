@@ -6,4 +6,10 @@ __pycache__/
 work/
 outputs/
 *.docx
+*.doc
+!templates/UMIN-CTR_Prep.doc
+*.pdf
+*.png
+*.jpg
+*.jpeg
 *.zip
