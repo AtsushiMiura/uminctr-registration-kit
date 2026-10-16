@@ -61,7 +61,14 @@ nodeRepl.write(await session.toMenu());
 
 ## 機関選択
 
-`management` のスポンサーと研究費提供組織は専用ポップアップを使う。`browser` は同じ接続済みブラウザ。
+`management` のスポンサーと研究費提供組織は専用ポップアップを使う。`browser` は同じ接続済みブラウザ。通常は検索せず「その他」を選び、原稿の日英名称を直接入力する。
+
+```javascript
+nodeRepl.write(await session.chooseInstitution(browser, 'sponsor', {useOther:true}));
+// 選択完了後、原稿の日英名称をそれぞれ sponsorj / sponsor に入力する。
+```
+
+研究費提供組織は `'funding'`、直接記入欄は `fundj` / `fund`。部署・個人名欄へ組織名を入れない。公的機関、機関コードの指定、ユーザーから検索の指示がある場合は次を使う。
 
 ```javascript
 nodeRepl.write(await session.chooseInstitution(browser, 'sponsor', {
@@ -69,13 +76,15 @@ nodeRepl.write(await session.chooseInstitution(browser, 'sponsor', {
 }));
 ```
 
-研究費提供組織は `'funding'`。完全一致がなければ止まる。原稿と検索結果を確認して「その他」が適切な場合だけ `useOther:true` を指定する。`popup_loading` が返ったら新たに開かず `finishInstitution(browser)` を呼ぶ。選択された機関が正しい役割の欄に戻ったことを確認してから自由記入欄を埋める。
+検索で完全一致がなければ止まる。原稿と検索結果を確認して「その他」が適切なら `useOther:true` を指定する。どちらの経路でも、`popup_loading` が返ったら新たに開かず `finishInstitution(browser)` を呼ぶ。選択された機関が正しい役割の欄に戻ったことを確認してから自由記入欄を埋める。
 
 ## 文字制限
 
 `scripts/umin_text.mjs` と `references/input-constraints.json` が事前検査を行う。出典は [公式FAQ](https://www.umin.ac.jp/ctr/UMIN-CTR_FAQ.htm) と [用語集の入力サイズ](https://www.umin.ac.jp/ctr/UMIN-CTR_Yougo.htm)。全角2・ASCIIと改行1のUMIN換算を使い、UTF-8のバイト数とは区別する。英語欄はASCII、数値欄は半角数字。半角カナ、HTML実体参照、制御文字なども検査する。
 
 `suggestAscii(text)` は不等号・全角ASCII等の置換案と変更箇所を返すだけで、自動適用しない。意味・単位・番号を原稿と照合してから使う。未対応の記号は勝手に翻訳しない。上限超過時は短縮案を別途確認し、切り詰めない。
+
+Word原稿の作成時にも同じ上限・文字検査を使うと手戻りを減らせる。記号の置換で換算値が変わるため、転記前にも再検査する。超過時は欄名・換算値・上限・超過量を示し、内容の短縮は原稿の修正として確認する。
 
 用語集に上限が明記されていない欄は `byte_limit_not_documented` とする。現在の `maxlength` とサーバー側の結果も確認する。公式資料と画面に相違がある場合も推測で上限を変更しない。必須条件や全ての組合せをローカルで再実装せず、個別フォームの確認画面でサーバーの検査を確認する。
 
