@@ -1,0 +1,13 @@
+interface:
+  display_name: "UMIN登録情報の入力"
+  short_description: "Word原稿を照合しながらUMINへ転記・保存し、正式登録画面の前で止める"
+  default_prompt: "$fill-umin-registration-draft を使い、添付Wordの内容をUMINの各フォームへ入力・保存してください。最終確認画面への遷移と正式登録・公開は行わないでください。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: false
