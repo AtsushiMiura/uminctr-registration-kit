@@ -60,10 +60,10 @@ test('rejects non-ASCII English, half-width kana, entities, numeric and markup e
   assert(validateText({name:'oucmes',tag:'textarea'},'<b>Value</b>').issues.some(i=>i.code==='html_not_allowed_in_outcome_measures'));
 });
 test('replacement is reviewable and never invents units or translations',()=>{
-  const source='• Age ≥ ２０\nDose 5 μg−10 μg'; const result=suggestAscii(source);
+  const source='• Age ≥　２０\nDose 5 μg−10 μg'; const result=suggestAscii(source);
   assert.equal(result.value,'- Age >= 20\nDose 5 μg-10 μg');
   assert.deepEqual(result.unresolved,['μ']); assert(result.replacements.length>0);
-  assert.equal(source,'• Age ≥ ２０\nDose 5 μg−10 μg');
+  assert.equal(source,'• Age ≥　２０\nDose 5 μg−10 μg');
 });
 test('confirmation rejects lost numbering and swapped language values',()=>{
   const p=input('design'); p.fields=p.fields.filter(f=>['incj','inc'].includes(f.name));

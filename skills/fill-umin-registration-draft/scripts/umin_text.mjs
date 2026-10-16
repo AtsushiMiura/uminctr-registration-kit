@@ -9,7 +9,7 @@ export function uminBytes(text) {
 
 /** Suggestions only. The caller must reconcile them with the approved Word source. */
 export function suggestAscii(text) {
-  const replacements = [], simple = {'≥':'>=', '≧':'>=', '≤':'<=', '≦':'<=', '−':'-', '–':'-', '—':'-', '‘':"'", '’':"'", '“':'"', '”':'"', '\u00a0':' '};
+  const replacements = [], simple = {'≥':'>=', '≧':'>=', '≤':'<=', '≦':'<=', '−':'-', '–':'-', '—':'-', '‘':"'", '’':"'", '“':'"', '”':'"', '\u00a0':' ', '\u3000':' '};
   const value = newline(text).replace(/[^\x00-\x7f]/gu, (c, offset) => {
     let to = simple[c];
     if (c === '•' && /^(?:\s*)$/.test(newline(text).slice(0, offset).split('\n').at(-1))) to = '-';
