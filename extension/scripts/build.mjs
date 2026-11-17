@@ -13,7 +13,7 @@ for(const production of [false,true]){
   manifest.action.default_title='UMIN-CTR 転記補助（本番・登録前）を開く';
   await writeFile(`${root}${outdir}/manifest.json`,JSON.stringify(manifest,null,2)+'\n');
   const html=await readFile(`${root}${outdir}/panel.html`,'utf8');
-  await writeFile(`${root}${outdir}/panel.html`,html.replace('UMIN-CTR / 練習環境','UMIN-CTR / 本番・登録前'));
+  await writeFile(`${root}${outdir}/panel.html`,html.replace('UMIN-CTR 転記補助 1.0 / 練習環境','UMIN-CTR 転記補助 1.0 / 本番・登録前'));
  }
  await build({absWorkingDir:root,entryPoints:['src/panel.ts','src/parse-worker.ts','src/background.ts','src/content.ts'],outdir,bundle:true,platform:'browser',format:'iife',target:'chrome116',legalComments:'eof',logLevel:'info',define:{__UMIN_PRODUCTION__:String(production)}});
 }
