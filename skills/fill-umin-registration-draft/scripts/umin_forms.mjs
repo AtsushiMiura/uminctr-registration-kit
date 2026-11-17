@@ -1,10 +1,10 @@
 /** UMIN form operations through the caller's connected browser tab.
  * No HTTP client, browser launch, hidden inputs, or final-registration action.
  */
-import { readFile } from 'node:fs/promises';
 import { validateFormText } from './umin_text.mjs';
 
-export const catalog = JSON.parse(await readFile(new URL('../references/form-catalog.json', import.meta.url), 'utf8'));
+import catalog from '../references/form-catalog.json' with { type: 'json' };
+export {catalog};
 export const MENU = 'UMIN-CTR フォームの選択とデータの確認';
 const norm = value => String(value ?? '').replace(/\s+/g, ' ').trim();
 const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
@@ -21,7 +21,7 @@ export function readDom() {
     const box = h.parentElement;
     const paragraphs = Array.from(box.querySelectorAll('p'));
     const group = { section, heading: clean(h.textContent), paragraphs: paragraphs.map(p => ({
-      text: clean(p.innerText || p.textContent),
+      text: clean(p.innerText || p.textContent), rawText: p.innerText ?? p.textContent ?? '',
       language: clean(Array.from(p.childNodes).filter(n => n.nodeType === 3).map(n => n.textContent).join(' ')).match(/^(日本語|英語)/)?.[1] || '',
       rows: Array.from(p.querySelectorAll('tr')).map(tr => Array.from(tr.querySelectorAll('td,th')).map(c => clean(c.innerText || c.textContent))),
     })) };

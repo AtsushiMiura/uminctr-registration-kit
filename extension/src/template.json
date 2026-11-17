@@ -1,0 +1,1896 @@
+{
+  "version": "1.2.0",
+  "tables": [
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "一般向け試験名(Public title)",
+        "cells": 3
+      },
+      {
+        "label": "一般向け試験名略称(Acronym)",
+        "cells": 3
+      },
+      {
+        "label": "科学的試験名(Scientific Title)",
+        "cells": 3
+      },
+      {
+        "label": "科学的試験名略称(Scientific Title:Acronym)",
+        "cells": 3
+      },
+      {
+        "label": "試験実施地域(Region)※複数選択可",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "対象疾患名(Condition)",
+        "cells": 3
+      },
+      {
+        "label": "疾患区分１(Classification by specialty)※複数選択可",
+        "cells": 3
+      },
+      {
+        "label": "疾患区分２(Classification by malignancy)",
+        "cells": 2
+      },
+      {
+        "label": "ゲノム情報の取扱い(Genomic information)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "目的１(Narrative objectives1)※記述記載",
+        "cells": 3
+      },
+      {
+        "label": "目的２(Basic objectives2)※主要アウトカム評価項目",
+        "cells": 3
+      },
+      {
+        "label": "その他の場合の詳細(Basic objectives-Others)※記述記載",
+        "cells": 3
+      },
+      {
+        "label": "試験の性質１(Trial characteristics_1)",
+        "cells": 3
+      },
+      {
+        "label": "試験の性質２(Trial characteristics_2)",
+        "cells": 3
+      },
+      {
+        "label": "試験のフェーズ(Developmental phase)",
+        "cells": 3
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "主要アウトカム評価項目(Primary outcomes)※記述記載",
+        "cells": 3
+      },
+      {
+        "label": "副次アウトカム評価項目(Key secondary outcomes)※記述記載）",
+        "cells": 3
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "試験の種類(Study type)",
+        "cells": 3
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "（以下は介入試験の場合に必要です。観察研究では入力しないでください。）",
+        "cells": 1
+      },
+      {
+        "label": "基本デザイン(Basic design)",
+        "cells": 3
+      },
+      {
+        "label": "ランダム化(Randomization)",
+        "cells": 3
+      },
+      {
+        "label": "ランダム化の単位(Randomization unit)",
+        "cells": 3
+      },
+      {
+        "label": "ブラインド化(Blinding)",
+        "cells": 3
+      },
+      {
+        "label": "コントロール(Control)",
+        "cells": 3
+      },
+      {
+        "label": "層別化(Stratification)",
+        "cells": 3
+      },
+      {
+        "label": "動的割付(Dynamic allocation)",
+        "cells": 3
+      },
+      {
+        "label": "試験実施施設の考慮(Institution consideration)",
+        "cells": 3
+      },
+      {
+        "label": "ブロック化(Blocking)",
+        "cells": 3
+      },
+      {
+        "label": "割付コードを知る方法(Concealment)",
+        "cells": 3
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "（以下は介入試験の場合に必要です。観察研究では入力しないでください。）",
+        "cells": 1
+      },
+      {
+        "label": "群数(No. of arms)",
+        "cells": 2
+      },
+      {
+        "label": "介入の目的(Purpose of intervention)",
+        "cells": 3
+      },
+      {
+        "label": "介入の種類(Type of intervention)（複数選択可）",
+        "cells": 3
+      },
+      {
+        "label": "介入１（記述記載）(Interventions/Control_1) ",
+        "cells": 3
+      },
+      {
+        "label": "介入２（記述記載）(Interventions/Control_2)",
+        "cells": 3
+      },
+      {
+        "label": "介入３（記述記載）(Interventions/Control_3)",
+        "cells": 3
+      },
+      {
+        "label": "介入４（記述記載）(Interventions/Control_4)",
+        "cells": 3
+      },
+      {
+        "label": "介入５（記述記載）(Interventions/Control_5)",
+        "cells": 3
+      },
+      {
+        "label": "介入６（記述記載）(Interventions/Control_6)",
+        "cells": 3
+      },
+      {
+        "label": "介入７（記述記載）(Interventions/Control_7)",
+        "cells": 3
+      },
+      {
+        "label": "介入８（記述記載）(Interventions/Control_8)",
+        "cells": 3
+      },
+      {
+        "label": "介入９（記述記載）(Interventions/Control_9)",
+        "cells": 3
+      },
+      {
+        "label": "介入10（記述記載）(Interventions/Control_10)",
+        "cells": 3
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "年齢（下限）(Age-lower limit)",
+        "cells": 2
+      },
+      {
+        "label": "年齢（上限）(Age-upper limit)",
+        "cells": 2
+      },
+      {
+        "label": "性別(Gender)",
+        "cells": 2
+      },
+      {
+        "label": "選択基準(Key inclusion criteria)（記述記載）",
+        "cells": 3
+      },
+      {
+        "label": "除外基準(Key exclusion criteria)（記述記載）",
+        "cells": 3
+      },
+      {
+        "label": "目標被験者数(Target sample size)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "責任研究者名(Name of lead principalinvestigator)",
+        "cells": 3
+      },
+      {
+        "label": "所属組織(Organization)",
+        "cells": 3
+      },
+      {
+        "label": "所属部署(Division name)",
+        "cells": 3
+      },
+      {
+        "label": "住所(Address)  ",
+        "cells": 3
+      },
+      {
+        "label": "電話(TEL)",
+        "cells": 2
+      },
+      {
+        "label": "E-mail (Email)  ",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "担当者名(Name of contact person)",
+        "cells": 3
+      },
+      {
+        "label": "組織名(Organization)",
+        "cells": 3
+      },
+      {
+        "label": "部署名(Division name)",
+        "cells": 3
+      },
+      {
+        "label": "住所(Address)",
+        "cells": 3
+      },
+      {
+        "label": "電話(TEL)",
+        "cells": 2
+      },
+      {
+        "label": "試験のホームページURL (Homepage URL)",
+        "cells": 2
+      },
+      {
+        "label": "E-mail (Email)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "送信者名(Name of person sending information)",
+        "cells": 3
+      },
+      {
+        "label": "情報送信組織(Organization)",
+        "cells": 3
+      },
+      {
+        "label": "所属部署(Division name)",
+        "cells": 3
+      },
+      {
+        "label": "住所(Address)",
+        "cells": 3
+      },
+      {
+        "label": "電話(TEL)",
+        "cells": 2
+      },
+      {
+        "label": "E-mail (Email)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "実施責任組織(Name of primary sponsor)",
+        "cells": 3
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "研究費提供組織(Source of funding)",
+        "cells": 3
+      },
+      {
+        "label": "組織の区分(Category of Org.)",
+        "cells": 3
+      },
+      {
+        "label": "研究費拠出国(Nation of funding)",
+        "cells": 3
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "共同実施組織(Co-sponsor)",
+        "cells": 3
+      },
+      {
+        "label": "その他の研究費提供組織(Name of secondary funder(s))",
+        "cells": 3
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "倫理委員会による審査・承認(Research ethics review)",
+        "cells": 2
+      },
+      {
+        "label": "日本の法規に定める医薬品製造業者等による医薬品の市販後調査への該当(Post marketing survey by drug manufacture etc., specified by Japanese law.)",
+        "cells": 2
+      },
+      {
+        "label": "組織名(Organization1)",
+        "cells": 2
+      },
+      {
+        "label": "住所(Address1)",
+        "cells": 2
+      },
+      {
+        "label": "電話(Tel1)",
+        "cells": 2
+      },
+      {
+        "label": "E-mail(Email1)",
+        "cells": 2
+      },
+      {
+        "label": "組織名２(Organization2)",
+        "cells": 2
+      },
+      {
+        "label": "住所２(Address2)",
+        "cells": 2
+      },
+      {
+        "label": "電話２(Tel2)",
+        "cells": 2
+      },
+      {
+        "label": "E-mail２(Email2)",
+        "cells": 2
+      },
+      {
+        "label": "組織名３(Organization3)",
+        "cells": 2
+      },
+      {
+        "label": "住所３(Address3)",
+        "cells": 2
+      },
+      {
+        "label": "電話３(Tel3)",
+        "cells": 2
+      },
+      {
+        "label": "E-mail３(Email3)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "組織名(Organization1)",
+        "cells": 2
+      },
+      {
+        "label": "住所(Address1)",
+        "cells": 2
+      },
+      {
+        "label": "電話(Tel1)",
+        "cells": 2
+      },
+      {
+        "label": "E-mail(Email1)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "他機関から発行された試験ID(Secondary study IDs)",
+        "cells": 2
+      },
+      {
+        "label": "試験ID１(Secondary study ID_1)",
+        "cells": 2
+      },
+      {
+        "label": "ID発行機関１(Org. issuing Secondary study ID_1)",
+        "cells": 3
+      },
+      {
+        "label": "試験ID２(Secondary study ID_2)",
+        "cells": 2
+      },
+      {
+        "label": "ID発行機関２(Org. issuing Secondary study ID_2)",
+        "cells": 3
+      },
+      {
+        "label": "治験届(IND to MHLW)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "試験実施施設名称(Institutions)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "試験情報の本登録希望日(=公開日) (Date of disclosure of the study information)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "プロトコル掲載URL(URL releasing protocol)",
+        "cells": 2
+      },
+      {
+        "label": "試験結果の公開状況(Publication of results)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "結果掲載URL (URL releasing results)",
+        "cells": 2
+      },
+      {
+        "label": "組み入れ参加者(Number of participants that the trial has enrolled)",
+        "cells": 3
+      },
+      {
+        "label": "主な結果(Results)",
+        "cells": 3
+      },
+      {
+        "label": "主な結果入力日(Results date posted)",
+        "cells": 3
+      },
+      {
+        "label": "結果掲載遅延(Results Delayed)",
+        "cells": 2
+      },
+      {
+        "label": "結果遅延理由(Results Delay Reason)",
+        "cells": 3
+      },
+      {
+        "label": "最初の試験結果の出版日(Date of the first journal publication of results)",
+        "cells": 2
+      },
+      {
+        "label": "参加者背景(Baseline Characteristics)",
+        "cells": 3
+      },
+      {
+        "label": "参加者の流れ(Participant flow)",
+        "cells": 3
+      },
+      {
+        "label": "有害事象(Adverse events)",
+        "cells": 3
+      },
+      {
+        "label": "評価項目(Outcome measures)",
+        "cells": 3
+      },
+      {
+        "label": "個別症例データ共有計画(Plan to share IPD)",
+        "cells": 3
+      },
+      {
+        "label": "個別症例データ共有計画の詳細(IPD sharing Plan description)",
+        "cells": 3
+      }
+    ],
+    [
+      {
+        "label": "",
+        "cells": 3
+      },
+      {
+        "label": "試験進捗状況(Recruitment status)",
+        "cells": 3
+      },
+      {
+        "label": "プロトコル確定日(Date of protocol fixation)*",
+        "cells": 2
+      },
+      {
+        "label": "倫理委員会による承認日(Date of IRB)",
+        "cells": 2
+      },
+      {
+        "label": "登録・組入れ開始（予定日）(Anticipated trial start date)",
+        "cells": 2
+      },
+      {
+        "label": "フォロー終了（予定日）(Last follow-up date)",
+        "cells": 2
+      },
+      {
+        "label": "入力終了（予定日）(Date of closure to data entry)",
+        "cells": 2
+      },
+      {
+        "label": "データ固定（予定日）(Date trial data considered complete)",
+        "cells": 2
+      },
+      {
+        "label": "解析終了（予定日）(Date analysis concluded)",
+        "cells": 2
+      }
+    ],
+    [
+      {
+        "label": "その他の関連情報(Other related information)",
+        "cells": 3
+      }
+    ]
+  ],
+  "bindings": {
+    "titlej": {
+      "table": 0,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "title": {
+      "table": 0,
+      "row": 1,
+      "cell": 2,
+      "mode": "text"
+    },
+    "titlebj": {
+      "table": 0,
+      "row": 2,
+      "cell": 1,
+      "mode": "text"
+    },
+    "titleb": {
+      "table": 0,
+      "row": 2,
+      "cell": 2,
+      "mode": "text"
+    },
+    "titlesj": {
+      "table": 0,
+      "row": 3,
+      "cell": 1,
+      "mode": "text"
+    },
+    "titles": {
+      "table": 0,
+      "row": 3,
+      "cell": 2,
+      "mode": "text"
+    },
+    "titlesbj": {
+      "table": 0,
+      "row": 4,
+      "cell": 1,
+      "mode": "text"
+    },
+    "titlesb": {
+      "table": 0,
+      "row": 4,
+      "cell": 2,
+      "mode": "text"
+    },
+    "region": {
+      "table": 0,
+      "row": 5,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "diseasej": {
+      "table": 1,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "disease": {
+      "table": 1,
+      "row": 1,
+      "cell": 2,
+      "mode": "text"
+    },
+    "dcatg": {
+      "table": 1,
+      "row": 2,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "cancer": {
+      "table": 1,
+      "row": 3,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "genomeYN": {
+      "table": 1,
+      "row": 4,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "objj": {
+      "table": 2,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "obj": {
+      "table": 2,
+      "row": 1,
+      "cell": 2,
+      "mode": "text"
+    },
+    "objoj": {
+      "table": 2,
+      "row": 3,
+      "cell": 1,
+      "mode": "text"
+    },
+    "objo": {
+      "table": 2,
+      "row": 3,
+      "cell": 2,
+      "mode": "text"
+    },
+    "object": {
+      "table": 2,
+      "row": 2,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "tchara1": {
+      "table": 2,
+      "row": 4,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "tchara2": {
+      "table": 2,
+      "row": 5,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "phase": {
+      "table": 2,
+      "row": 6,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "primoutcj": {
+      "table": 3,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "primoutc": {
+      "table": 3,
+      "row": 1,
+      "cell": 2,
+      "mode": "text"
+    },
+    "secoutcj": {
+      "table": 3,
+      "row": 2,
+      "cell": 1,
+      "mode": "text"
+    },
+    "secoutc": {
+      "table": 3,
+      "row": 2,
+      "cell": 2,
+      "mode": "text"
+    },
+    "ttype": {
+      "table": 4,
+      "row": 1,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "design": {
+      "table": 5,
+      "row": 2,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "rndm": {
+      "table": 5,
+      "row": 3,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "rndmu": {
+      "table": 5,
+      "row": 4,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "blnd": {
+      "table": 5,
+      "row": 5,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "cont": {
+      "table": 5,
+      "row": 6,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "stratYN": {
+      "table": 5,
+      "row": 7,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "dynallYN": {
+      "table": 5,
+      "row": 8,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "instfac": {
+      "table": 5,
+      "row": 9,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "blockYN": {
+      "table": 5,
+      "row": 10,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "conceal": {
+      "table": 5,
+      "row": 11,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "arm": {
+      "table": 6,
+      "row": 2,
+      "cell": 1,
+      "mode": "text"
+    },
+    "itype": {
+      "table": 6,
+      "row": 3,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "intervention": {
+      "table": 6,
+      "row": 4,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "intervj1": {
+      "table": 6,
+      "row": 5,
+      "cell": 1,
+      "mode": "text"
+    },
+    "interv1": {
+      "table": 6,
+      "row": 5,
+      "cell": 2,
+      "mode": "text"
+    },
+    "intervj2": {
+      "table": 6,
+      "row": 6,
+      "cell": 1,
+      "mode": "text"
+    },
+    "interv2": {
+      "table": 6,
+      "row": 6,
+      "cell": 2,
+      "mode": "text"
+    },
+    "intervj3": {
+      "table": 6,
+      "row": 7,
+      "cell": 1,
+      "mode": "text"
+    },
+    "interv3": {
+      "table": 6,
+      "row": 7,
+      "cell": 2,
+      "mode": "text"
+    },
+    "intervj4": {
+      "table": 6,
+      "row": 8,
+      "cell": 1,
+      "mode": "text"
+    },
+    "interv4": {
+      "table": 6,
+      "row": 8,
+      "cell": 2,
+      "mode": "text"
+    },
+    "intervj5": {
+      "table": 6,
+      "row": 9,
+      "cell": 1,
+      "mode": "text"
+    },
+    "interv5": {
+      "table": 6,
+      "row": 9,
+      "cell": 2,
+      "mode": "text"
+    },
+    "intervj6": {
+      "table": 6,
+      "row": 10,
+      "cell": 1,
+      "mode": "text"
+    },
+    "interv6": {
+      "table": 6,
+      "row": 10,
+      "cell": 2,
+      "mode": "text"
+    },
+    "intervj7": {
+      "table": 6,
+      "row": 11,
+      "cell": 1,
+      "mode": "text"
+    },
+    "interv7": {
+      "table": 6,
+      "row": 11,
+      "cell": 2,
+      "mode": "text"
+    },
+    "intervj8": {
+      "table": 6,
+      "row": 12,
+      "cell": 1,
+      "mode": "text"
+    },
+    "interv8": {
+      "table": 6,
+      "row": 12,
+      "cell": 2,
+      "mode": "text"
+    },
+    "intervj9": {
+      "table": 6,
+      "row": 13,
+      "cell": 1,
+      "mode": "text"
+    },
+    "interv9": {
+      "table": 6,
+      "row": 13,
+      "cell": 2,
+      "mode": "text"
+    },
+    "intervj10": {
+      "table": 6,
+      "row": 14,
+      "cell": 1,
+      "mode": "text"
+    },
+    "interv10": {
+      "table": 6,
+      "row": 14,
+      "cell": 2,
+      "mode": "text"
+    },
+    "agelow": {
+      "table": 7,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "agelowu": {
+      "table": 7,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "agelowl": {
+      "table": 7,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "ageup": {
+      "table": 7,
+      "row": 2,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "ageupu": {
+      "table": 7,
+      "row": 2,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "ageupl": {
+      "table": 7,
+      "row": 2,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "sex": {
+      "table": 7,
+      "row": 3,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "incj": {
+      "table": 7,
+      "row": 4,
+      "cell": 1,
+      "mode": "text"
+    },
+    "inc": {
+      "table": 7,
+      "row": 4,
+      "cell": 2,
+      "mode": "text"
+    },
+    "excj": {
+      "table": 7,
+      "row": 5,
+      "cell": 1,
+      "mode": "text"
+    },
+    "exc": {
+      "table": 7,
+      "row": 5,
+      "cell": 2,
+      "mode": "text"
+    },
+    "partno": {
+      "table": 7,
+      "row": 6,
+      "cell": 1,
+      "mode": "count"
+    },
+    "i_fnamej": {
+      "table": 8,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "i_mnamej": {
+      "table": 8,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "i_namej": {
+      "table": 8,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "i_fname": {
+      "table": 8,
+      "row": 1,
+      "cell": 2,
+      "mode": "manual"
+    },
+    "i_mname": {
+      "table": 8,
+      "row": 1,
+      "cell": 2,
+      "mode": "manual"
+    },
+    "i_name": {
+      "table": 8,
+      "row": 1,
+      "cell": 2,
+      "mode": "manual"
+    },
+    "i_orgj": {
+      "table": 8,
+      "row": 2,
+      "cell": 1,
+      "mode": "text"
+    },
+    "i_org": {
+      "table": 8,
+      "row": 2,
+      "cell": 2,
+      "mode": "text"
+    },
+    "i_divj": {
+      "table": 8,
+      "row": 3,
+      "cell": 1,
+      "mode": "text"
+    },
+    "i_div": {
+      "table": 8,
+      "row": 3,
+      "cell": 2,
+      "mode": "text"
+    },
+    "i_addj": {
+      "table": 8,
+      "row": 4,
+      "cell": 1,
+      "mode": "text"
+    },
+    "i_add": {
+      "table": 8,
+      "row": 4,
+      "cell": 2,
+      "mode": "text"
+    },
+    "i_tel": {
+      "table": 8,
+      "row": 5,
+      "cell": 1,
+      "mode": "text"
+    },
+    "i_mail": {
+      "table": 8,
+      "row": 6,
+      "cell": 1,
+      "mode": "text"
+    },
+    "i_zip": {
+      "table": 8,
+      "row": 4,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "w_fnamej": {
+      "table": 9,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "w_mnamej": {
+      "table": 9,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "w_namej": {
+      "table": 9,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "w_fname": {
+      "table": 9,
+      "row": 1,
+      "cell": 2,
+      "mode": "manual"
+    },
+    "w_mname": {
+      "table": 9,
+      "row": 1,
+      "cell": 2,
+      "mode": "manual"
+    },
+    "w_name": {
+      "table": 9,
+      "row": 1,
+      "cell": 2,
+      "mode": "manual"
+    },
+    "w_orgj": {
+      "table": 9,
+      "row": 2,
+      "cell": 1,
+      "mode": "text"
+    },
+    "w_org": {
+      "table": 9,
+      "row": 2,
+      "cell": 2,
+      "mode": "text"
+    },
+    "w_divj": {
+      "table": 9,
+      "row": 3,
+      "cell": 1,
+      "mode": "text"
+    },
+    "w_div": {
+      "table": 9,
+      "row": 3,
+      "cell": 2,
+      "mode": "text"
+    },
+    "w_addj": {
+      "table": 9,
+      "row": 4,
+      "cell": 1,
+      "mode": "text"
+    },
+    "w_add": {
+      "table": 9,
+      "row": 4,
+      "cell": 2,
+      "mode": "text"
+    },
+    "w_tel": {
+      "table": 9,
+      "row": 5,
+      "cell": 1,
+      "mode": "text"
+    },
+    "w_mail": {
+      "table": 9,
+      "row": 7,
+      "cell": 1,
+      "mode": "text"
+    },
+    "w_zip": {
+      "table": 9,
+      "row": 4,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "w_url": {
+      "table": 9,
+      "row": 6,
+      "cell": 1,
+      "mode": "text"
+    },
+    "s_namej": {
+      "table": 10,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "s_name": {
+      "table": 10,
+      "row": 1,
+      "cell": 2,
+      "mode": "text"
+    },
+    "s_orgj": {
+      "table": 10,
+      "row": 2,
+      "cell": 1,
+      "mode": "text"
+    },
+    "s_org": {
+      "table": 10,
+      "row": 2,
+      "cell": 2,
+      "mode": "text"
+    },
+    "s_divj": {
+      "table": 10,
+      "row": 3,
+      "cell": 1,
+      "mode": "text"
+    },
+    "s_div": {
+      "table": 10,
+      "row": 3,
+      "cell": 2,
+      "mode": "text"
+    },
+    "s_addj": {
+      "table": 10,
+      "row": 4,
+      "cell": 1,
+      "mode": "text"
+    },
+    "s_add": {
+      "table": 10,
+      "row": 4,
+      "cell": 2,
+      "mode": "text"
+    },
+    "s_tel": {
+      "table": 10,
+      "row": 5,
+      "cell": 1,
+      "mode": "text"
+    },
+    "s_mail": {
+      "table": 10,
+      "row": 6,
+      "cell": 1,
+      "mode": "text"
+    },
+    "sponsorj": {
+      "table": 11,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "sponsor": {
+      "table": 11,
+      "row": 1,
+      "cell": 2,
+      "mode": "text"
+    },
+    "fundj": {
+      "table": 12,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "fund": {
+      "table": 12,
+      "row": 1,
+      "cell": 2,
+      "mode": "text"
+    },
+    "fundorg": {
+      "table": 12,
+      "row": 2,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "fundnationj": {
+      "table": 12,
+      "row": 3,
+      "cell": 1,
+      "mode": "text"
+    },
+    "fundnation": {
+      "table": 12,
+      "row": 3,
+      "cell": 2,
+      "mode": "text"
+    },
+    "sponsor_nm": {
+      "table": 11,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "sponsor_orgj": {
+      "table": 11,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "sponsor_perj": {
+      "table": 11,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "sponsor_per": {
+      "table": 11,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "fund_nm": {
+      "table": 12,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "fund_orgj": {
+      "table": 12,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "cosponsorj": {
+      "table": 13,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "cosponsor": {
+      "table": 13,
+      "row": 1,
+      "cell": 2,
+      "mode": "text"
+    },
+    "cofunderj": {
+      "table": 13,
+      "row": 2,
+      "cell": 1,
+      "mode": "text"
+    },
+    "cofunder": {
+      "table": 13,
+      "row": 2,
+      "cell": 2,
+      "mode": "text"
+    },
+    "ethics": {
+      "table": 14,
+      "row": 1,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "irb_kind": {
+      "table": 14,
+      "row": 2,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "irb_org1": {
+      "table": 14,
+      "row": 3,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_add1": {
+      "table": 14,
+      "row": 4,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_tel1": {
+      "table": 14,
+      "row": 5,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_mail1": {
+      "table": 14,
+      "row": 6,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_org2": {
+      "table": 14,
+      "row": 7,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_add2": {
+      "table": 14,
+      "row": 8,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_tel2": {
+      "table": 14,
+      "row": 9,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_mail2": {
+      "table": 14,
+      "row": 10,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_org3": {
+      "table": 14,
+      "row": 11,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_add3": {
+      "table": 14,
+      "row": 12,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_tel3": {
+      "table": 14,
+      "row": 13,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_mail3": {
+      "table": 14,
+      "row": 14,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_orgdj": {
+      "table": 15,
+      "row": 0,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_orgd": {
+      "table": 15,
+      "row": 0,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "irb_adddj": {
+      "table": 15,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_addd": {
+      "table": 15,
+      "row": 1,
+      "cell": 1,
+      "mode": "manual"
+    },
+    "irb_teld": {
+      "table": 15,
+      "row": 2,
+      "cell": 1,
+      "mode": "text"
+    },
+    "irb_maild": {
+      "table": 15,
+      "row": 3,
+      "cell": 1,
+      "mode": "text"
+    },
+    "intidYN": {
+      "table": 16,
+      "row": 1,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "intid1": {
+      "table": 16,
+      "row": 2,
+      "cell": 1,
+      "mode": "text"
+    },
+    "intidorgj1": {
+      "table": 16,
+      "row": 3,
+      "cell": 1,
+      "mode": "text"
+    },
+    "intidorg1": {
+      "table": 16,
+      "row": 3,
+      "cell": 2,
+      "mode": "text"
+    },
+    "intid2": {
+      "table": 16,
+      "row": 4,
+      "cell": 1,
+      "mode": "text"
+    },
+    "intidorgj2": {
+      "table": 16,
+      "row": 5,
+      "cell": 1,
+      "mode": "text"
+    },
+    "intidorg2": {
+      "table": 16,
+      "row": 5,
+      "cell": 2,
+      "mode": "text"
+    },
+    "indmhlw": {
+      "table": 16,
+      "row": 6,
+      "cell": 1,
+      "mode": "text"
+    },
+    "instname": {
+      "table": 17,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "discldt_yyyy": {
+      "table": 18,
+      "row": 1,
+      "cell": 1,
+      "mode": "date"
+    },
+    "discldt_mm": {
+      "table": 18,
+      "row": 1,
+      "cell": 1,
+      "mode": "date"
+    },
+    "discldt_dd": {
+      "table": 18,
+      "row": 1,
+      "cell": 1,
+      "mode": "date"
+    },
+    "prturl": {
+      "table": 19,
+      "row": 1,
+      "cell": 1,
+      "mode": "text"
+    },
+    "pubresult": {
+      "table": 19,
+      "row": 2,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "rslturl": {
+      "table": 20,
+      "row": 0,
+      "cell": 1,
+      "mode": "text"
+    },
+    "actno": {
+      "table": 20,
+      "row": 1,
+      "cell": 1,
+      "mode": "count"
+    },
+    "rsltj": {
+      "table": 20,
+      "row": 2,
+      "cell": 1,
+      "mode": "text"
+    },
+    "rslt": {
+      "table": 20,
+      "row": 2,
+      "cell": 2,
+      "mode": "text"
+    },
+    "delayed12": {
+      "table": 20,
+      "row": 4,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "reason12j": {
+      "table": 20,
+      "row": 5,
+      "cell": 1,
+      "mode": "text"
+    },
+    "reason12": {
+      "table": 20,
+      "row": 5,
+      "cell": 2,
+      "mode": "text"
+    },
+    "publicdt_yyyy": {
+      "table": 20,
+      "row": 6,
+      "cell": 1,
+      "mode": "date"
+    },
+    "publicdt_mm": {
+      "table": 20,
+      "row": 6,
+      "cell": 1,
+      "mode": "date"
+    },
+    "publicdt_dd": {
+      "table": 20,
+      "row": 6,
+      "cell": 1,
+      "mode": "date"
+    },
+    "baselinej": {
+      "table": 20,
+      "row": 7,
+      "cell": 1,
+      "mode": "text"
+    },
+    "baseline": {
+      "table": 20,
+      "row": 7,
+      "cell": 2,
+      "mode": "text"
+    },
+    "partflowj": {
+      "table": 20,
+      "row": 8,
+      "cell": 1,
+      "mode": "text"
+    },
+    "partflow": {
+      "table": 20,
+      "row": 8,
+      "cell": 2,
+      "mode": "text"
+    },
+    "advevtj": {
+      "table": 20,
+      "row": 9,
+      "cell": 1,
+      "mode": "text"
+    },
+    "advevt": {
+      "table": 20,
+      "row": 9,
+      "cell": 2,
+      "mode": "text"
+    },
+    "oucmesj": {
+      "table": 20,
+      "row": 10,
+      "cell": 1,
+      "mode": "text"
+    },
+    "oucmes": {
+      "table": 20,
+      "row": 10,
+      "cell": 2,
+      "mode": "text"
+    },
+    "ipdplanj": {
+      "table": 20,
+      "row": 11,
+      "cell": 1,
+      "mode": "text"
+    },
+    "ipdplan": {
+      "table": 20,
+      "row": 11,
+      "cell": 2,
+      "mode": "text"
+    },
+    "ipdplandescj": {
+      "table": 20,
+      "row": 12,
+      "cell": 1,
+      "mode": "text"
+    },
+    "ipdplandesc": {
+      "table": 20,
+      "row": 12,
+      "cell": 2,
+      "mode": "text"
+    },
+    "prog": {
+      "table": 21,
+      "row": 1,
+      "cell": 1,
+      "mode": "choice"
+    },
+    "prtdt_yyyy": {
+      "table": 21,
+      "row": 2,
+      "cell": 1,
+      "mode": "date"
+    },
+    "prtdt_mm": {
+      "table": 21,
+      "row": 2,
+      "cell": 1,
+      "mode": "date"
+    },
+    "prtdt_dd": {
+      "table": 21,
+      "row": 2,
+      "cell": 1,
+      "mode": "date"
+    },
+    "ethics_dt_yyyy": {
+      "table": 21,
+      "row": 3,
+      "cell": 1,
+      "mode": "date"
+    },
+    "ethics_dt_mm": {
+      "table": 21,
+      "row": 3,
+      "cell": 1,
+      "mode": "date"
+    },
+    "ethics_dt_dd": {
+      "table": 21,
+      "row": 3,
+      "cell": 1,
+      "mode": "date"
+    },
+    "regdt_yyyy": {
+      "table": 21,
+      "row": 4,
+      "cell": 1,
+      "mode": "date"
+    },
+    "regdt_mm": {
+      "table": 21,
+      "row": 4,
+      "cell": 1,
+      "mode": "date"
+    },
+    "regdt_dd": {
+      "table": 21,
+      "row": 4,
+      "cell": 1,
+      "mode": "date"
+    },
+    "lastfoldt_yyyy": {
+      "table": 21,
+      "row": 5,
+      "cell": 1,
+      "mode": "date"
+    },
+    "lastfoldt_mm": {
+      "table": 21,
+      "row": 5,
+      "cell": 1,
+      "mode": "date"
+    },
+    "lastfoldt_dd": {
+      "table": 21,
+      "row": 5,
+      "cell": 1,
+      "mode": "date"
+    },
+    "lastentdt_yyyy": {
+      "table": 21,
+      "row": 6,
+      "cell": 1,
+      "mode": "date"
+    },
+    "lastentdt_mm": {
+      "table": 21,
+      "row": 6,
+      "cell": 1,
+      "mode": "date"
+    },
+    "lastentdt_dd": {
+      "table": 21,
+      "row": 6,
+      "cell": 1,
+      "mode": "date"
+    },
+    "enddt_yyyy": {
+      "table": 21,
+      "row": 7,
+      "cell": 1,
+      "mode": "date"
+    },
+    "enddt_mm": {
+      "table": 21,
+      "row": 7,
+      "cell": 1,
+      "mode": "date"
+    },
+    "enddt_dd": {
+      "table": 21,
+      "row": 7,
+      "cell": 1,
+      "mode": "date"
+    },
+    "concdt_yyyy": {
+      "table": 21,
+      "row": 8,
+      "cell": 1,
+      "mode": "date"
+    },
+    "concdt_mm": {
+      "table": 21,
+      "row": 8,
+      "cell": 1,
+      "mode": "date"
+    },
+    "concdt_dd": {
+      "table": 21,
+      "row": 8,
+      "cell": 1,
+      "mode": "date"
+    },
+    "tinfoj": {
+      "table": 22,
+      "row": 0,
+      "cell": 1,
+      "mode": "text"
+    },
+    "tinfo": {
+      "table": 22,
+      "row": 0,
+      "cell": 2,
+      "mode": "text"
+    }
+  },
+  "unmappedRows": [
+    {
+      "table": 20,
+      "row": 3,
+      "reason": "主な結果入力日は転記先が定義されていません"
+    }
+  ]
+}

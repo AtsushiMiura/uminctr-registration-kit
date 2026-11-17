@@ -5,6 +5,7 @@ __pycache__/
 # 案件資料と生成物はリポジトリ外で管理する
 work/
 outputs/
+.yomiyasu/
 *.docx
 *.doc
 !templates/UMIN-CTR_Prep.doc
@@ -13,3 +14,8 @@ outputs/
 *.jpg
 *.jpeg
 *.zip
+
+# Chrome extension dependencies and builds
+node_modules/
+extension/dist/
+extension/dist-production/
