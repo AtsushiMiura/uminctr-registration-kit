@@ -6,6 +6,7 @@ for(const production of [false,true]){
  const outdir=production?'dist-production':'dist';
  await mkdir(`${root}${outdir}`,{recursive:true});
  for(const name of await readdir(`${root}static`))await copyFile(`${root}static/${name}`,`${root}${outdir}/${name}`);
+ await copyFile(`${root}../LICENSE`,`${root}${outdir}/LICENSE.txt`);
  if(production){
   const manifest=JSON.parse(await readFile(`${root}${outdir}/manifest.json`,'utf8'));
   manifest.name='UMIN-CTR 転記補助（本番・登録前）';
