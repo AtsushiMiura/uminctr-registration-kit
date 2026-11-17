@@ -1,0 +1,14 @@
+{
+  "name": "umin-ctr-extension",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {"mammoth": "1.13.0", "jszip": "3.10.2"},
+  "devDependencies": {"@types/chrome": "0.3.7", "@types/node": "26.0.0", "@types/jsdom": "27.0.0", "esbuild": "0.28.2", "jsdom": "31.0.1", "tsx": "4.21.0", "typescript": "5.9.3"}
+}

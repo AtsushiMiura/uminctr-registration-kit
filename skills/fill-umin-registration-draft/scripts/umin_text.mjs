@@ -1,5 +1,5 @@
-import {readFile} from 'node:fs/promises';
-export const constraints = JSON.parse(await readFile(new URL('../references/input-constraints.json', import.meta.url), 'utf8'));
+import constraints from '../references/input-constraints.json' with { type: 'json' };
+export {constraints};
 const newline = text => text.replace(/\r\n?/g, '\n');
 
 /** UMIN's documented 1/2-byte model, not UTF-8 transmission size. */
